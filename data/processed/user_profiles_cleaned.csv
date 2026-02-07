@@ -1,0 +1,17 @@
+Id,Name,Age,Signup_Date,Country,Salary (USD),Active,Email
+USR001,John  Doe,29,2023-01-05,USA,54000,True,john.doe@gmail.com
+USR002,Jane Smith,30,2023-05-02,UK,48000,True,jane.smith@yahoo.co.uk
+USR004,Mike O'Neil,32,2023-04-11,Canada,72000,True,mike.oneil@hotmail.com
+USR005,Sara Khan,27,2023-04-15,India,7150,True,sara.khan@gmail.com
+USR006,Ali,32,2023-05-01,UAE,14440,False,ali@gmail.com
+USR007,Chen Wei,31,2023-06-15,China,70000,True,chen.wei@qq.com
+USR009,Maria Garcia,45,2023-07-19,Spain,96432,True,maria.garcia@outlook.com
+USR010,David,28,2023-07-25,Australia,70560,True,david@gmail.com
+USR011,Fatima Noor,33,2023-08-01,Pakistan,53337,True,fatima.noor@yahoo.com
+USR013,Léa Martin,29,2023-10-12,France,68208,True,lea.martin@gmail.com
+USR014,Ahmed Hassan,32,2023-11-05,Egypt,5898,True,ahmed.hassan@gmail.com
+USR015,Emily Clark,41,2022-12-31,USA,105000,True,emily.clark@gmail.com
+USR016,Juan Pérez,36,2023-01-31,Mexico,4305,True,juan.perez@hotmail.com
+USR017,Aisha,28,2023-06-15,Unknown,64000,False,aisha@gmail.com
+USR018,Bob Lee,30,2023-07-07,Singapore,66725,True,bob.lee@gmail.com
+USR019,Chris,32,2023-08-22,Germany,53337,True,Chris@gmail.com

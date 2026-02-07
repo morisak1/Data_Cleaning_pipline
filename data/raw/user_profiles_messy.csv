@@ -1,0 +1,21 @@
+id,name,age,signup_date,country,salary,active,email
+001,John  Doe,29,2023-01-05,USA,$54000,True,john.doe@gmail.com
+002, jane smith ,thirty,05/02/23,uk,48000 USD,yes,janesmith@YAHOO.CO.UK
+003,,34,2023/03/11,U.S.A,NaN,TRUE,  missingemail.com
+004,Mike O'Neil,?,11-04-2023,Canada,72000,false,mike.oneil@@hotmail.com
+005,Sara Khan,27 yrs,April 15 2023,india,₹650000,1,sara_khan@gmail
+006,Ali, ,2023.05.01,UAE,53000aed,0,ali@uae-mail.com
+007,Chen Wei,31,2023/13/01,China,70000,True,chenwei@@qq.com
+008,JOHN  DOE,29,2023-01-05,USA,"$54,000",True,john.doe@gmail.com
+009,Maria-Garcia,45,2023-07-19,Spain,€82000,False,maria.garcia@outlook.com
+010,David,twenty 8,07/25/2023,Australia,90000AUD,Yes,david @gmail.com
+011, Fatima Noor,33,2023-08-01,Pakistan,?,TRUE,fatima.noor#yahoo.com
+012,NULL,38,2023-09-31,Brazil,61000,false,NULL
+013,Léa Martin,29,2023-10-12,France,58000€,true,lea.martin@gmail.com
+014,Ahmed Hassan,Na,2023-11-05,Egypt,EGP 300000,False,ahmed.hassan@eg-mail
+015,Emily Clark,41,2022-12-31,USA,$105000,TRUE,emily.clark@gmail.com
+016,Juan Pérez,36,31/01/2023,Mexico,75000MXN,Yes,juan.perez@hotmail.com
+017,Aisha,28,2023-06-15,,64000,No,aisha@@example.com
+018,Bob Lee, 30 ,2023-07-07,Singapore,SGD85000,TRUE,bob.lee@gmailcom
+019,Chris,unknown,2023/08/22,Germany,€?,False,chris@web
+020,John  Doe,29,2023-01-05,USA,$54000,True,john..doe@@gmail..com

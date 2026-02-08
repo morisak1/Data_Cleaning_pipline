@@ -60,12 +60,10 @@ The cleaned CSV has the following columns:
 
 1. Clean the raw data in the notebook:
 
-```jupyter notebook data_cleaning-analysis.ipynb
-```
+`jupyter notebook data_cleaning-analysis.ipynb`
 
 2. Load the cleaned CSV into the SQLite database:
-``` python SQLite/load_into_sql.py
-```
+`python SQLite/load_into_sql.py`
 3. Run queries to check the table:
 ```-- Open SQLite CLI or a DB browser
 .read SQLite/query.sql

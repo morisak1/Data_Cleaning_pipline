@@ -5,6 +5,7 @@ This project is a simple **data cleaning and loading pipeline**. It processes ra
 ---
 ## Project Structure
 
+```
 Data_Cleaning_Pipeline/
 ├── data/
 │ ├── raw/
@@ -17,6 +18,7 @@ Data_Cleaning_Pipeline/
 │ └── query.sql # SQL file with queries to check the table
 ├── data_cleaning-analysis.ipynb # Jupyter notebook used for cleaning the data
 └── README.md # This documentation
+```
 
 ---
 
@@ -53,15 +55,14 @@ The cleaned CSV has the following columns:
 | Active        | Account active status (True/False) |
 | Email         | User email address           |
 
-> Note: `Salary (USD)` in the original CSV is renamed to `Salary_USD` when loading into SQLite.
 
 ## Usage
 
 1. Clean the raw data in the notebook:
 
-```bash
-    jupyter notebook data_cleaning-analysis.ipynb
+```jupyter notebook data_cleaning-analysis.ipynb
 ```
+
 2. Load the cleaned CSV into the SQLite database:
 ``` python SQLite/load_into_sql.py
 ```

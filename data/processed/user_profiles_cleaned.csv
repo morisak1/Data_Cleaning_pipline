@@ -1,4 +1,4 @@
-Id,Name,Age,Signup_Date,Country,Salary (USD),Active,Email
+Id,Name,Age,Signup_Date,Country,Salary_USD,Active,Email
 USR001,John  Doe,29,2023-01-05,USA,54000,True,john.doe@gmail.com
 USR002,Jane Smith,30,2023-05-02,UK,48000,True,jane.smith@yahoo.co.uk
 USR004,Mike O'Neil,32,2023-04-11,Canada,72000,True,mike.oneil@hotmail.com
@@ -14,4 +14,4 @@ USR015,Emily Clark,41,2022-12-31,USA,105000,True,emily.clark@gmail.com
 USR016,Juan Pérez,36,2023-01-31,Mexico,4305,True,juan.perez@hotmail.com
 USR017,Aisha,28,2023-06-15,Unknown,64000,False,aisha@gmail.com
 USR018,Bob Lee,30,2023-07-07,Singapore,66725,True,bob.lee@gmail.com
-USR019,Chris,32,2023-08-22,Germany,53337,True,Chris@gmail.com
+USR019,Chris,32,2023-08-22,Germany,53337,True,chris@gmail.com

@@ -1,10 +1,10 @@
-from pathlib import Path
-import sqlite3
-import pandas as pd
+from pathlib import Path as p # for file path handling
+import sqlite3 # to query csv to Database
+import pandas as pd # for data manipulation and loading csv to database
 
 # Paths
-csv_file = Path("data/processed/user_profiles_cleaned.csv")
-db_file = Path("SQlite/user.db")  # DB in SQlite folder relative to script
+csv_file = p(r"Data_Cleaning_pipline\data\processed") /"user_profiles_cleaned.csv"
+db_file = p("Data_Cleaning_pipline\SQlite/user.db")  # DB in SQlite folder relative to script
 
 # Ensure CSV and DB folders exist
 csv_file.parent.mkdir(parents=True, exist_ok=True)
@@ -36,7 +36,6 @@ CREATE TABLE IF NOT EXISTS user_profiles (
 """)
 
 # Insert CSV data into table
-df.rename(columns={"Salary (USD)": "Salary_USD"}, inplace=True)
 df.to_sql("user_profiles", conn, if_exists="replace", index=False)
 
 conn.commit()
